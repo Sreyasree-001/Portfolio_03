@@ -8,8 +8,13 @@ export const About = () => {
       <div>
       <h1 className="font-bold text-white sm:text-2xl mb-4">ABOUT</h1>
       <div className="lg:flex lg:flex-row">
-      <p className="lg:w-1/2">
-      My name is Sreyasree Sasmal. Currently I'm pursuing B.Tech in Computer Science and Engineering from MCKV Institute of Engineering(2022-2026). I have learned programming languages like C, C++, python, javascript, java and I've worked in the field of web developement (fullstack). I have worked with NodeJs, ExpressJs, ReactJS,NextJS, Tailwind CSS, Bootstrap, ShadCN UI, and right now I'm enhancing my knowledge with MERN stack.
+      <p className="lg:w-2/3">
+      I am Sreyasree Sasmal, currently enrolled in the B.Tech program for Computer Science and Engineering at MCKV Institute of Engineering, 
+      with an expected graduation year of 2026. My academic 
+      journey has equipped me with proficiency in a diverse array of programming languages, including C, C++, Python, JavaScript, and Java.<br/><br/>
+      In my professional journey, I have focused on front-end web development. I have gained practical experience with 
+      technologies like React.js, Next.js, Tailwind CSS, Bootstrap, and ShadCN UI. Currently, I am dedicated to expanding my 
+      skills further through the MERN stack, aiming to deepen my understanding of modern web development frameworks and tools.
       </p>
       <div className="flex justify-center my-10 lg:my-0">
           <img

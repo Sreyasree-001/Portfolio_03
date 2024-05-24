@@ -2,6 +2,7 @@ import { Hero } from "./Components/Hero";
 import { Navbar } from "./Components/Navbar";
 import { About } from "./about/About";
 import Contact from "./contact/Contact";
+import ProjectCards from "./projects/ProjectCards";
 import Projects from "./projects/Projects";
 
 
@@ -19,7 +20,7 @@ export default function Home() {
       <About/>
     </div>
     <div id="projects" className="self-center">
-      <Projects/>
+      <ProjectCards/>
     </div>
     <div id="contact">
       <Contact/>

@@ -2,8 +2,8 @@
 export const Hero = () => {
   return (
     <>
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 sm:mt-16
-      bg-[url('')] bg-cover rounded-xl">
+      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 sm:mt-16 md:mt-14
+      bg-[url('https://img.freepik.com/free-vector/grey-hexagons-black-background_78370-2098.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1712102400&semt=ais')] bg-none rounded-xl">
         <div className="max-w-lg sm:text-center sm:mx-auto">
           <a
             href="/"
