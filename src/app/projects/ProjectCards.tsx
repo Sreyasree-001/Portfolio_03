@@ -5,7 +5,7 @@ const ProjectCards = () => {
   return (
     <>
       <div className="p-4 h-auto mt-24 flex flex-col justify-center items-center space-y-5 sm:mx-5 sm:mt-32">
-        <h1 className=" font-bold text-xl text-white sm:text-2xl md:text-3xl uppercase">
+        <h1 className=" font-bold text-xl text-slate-300 sm:text-2xl md:text-3xl uppercase">
           Projects
         </h1>
         <Cards />

@@ -10,7 +10,7 @@ export const data =[
     {
         "id": 2,
         "title": "Code-Quanta",
-        "image": "codequanta.png",
+        "image": "cQ.png",
         "about":"We've developed an exciting project that utilizes Gemini AI to provide concise explanations for your code. You can upload your code file directly to receive a brief and clear explanation.",
         "link": "https://github.com/Sreyasree-001/Code-Quanta",
         "GitHub": "https://github.com/Sreyasree-001/Code-Quanta"

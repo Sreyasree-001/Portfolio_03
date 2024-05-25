@@ -5,20 +5,20 @@ import { FaArrowUpRightFromSquare, FaGithub } from "react-icons/fa6";
 const Cards = () => {
   return (
     <>
-      <div className="max-w-[85rem] px-4 py-5 sm:px-2 lg:px-32 lg:py-14 mx-auto">
+      <div className="max-w-[85rem] px-4 py-5 sm:px-2 md:px-10 lg:px-32 lg:py-14 mx-auto xl:px-44">
         <div className="grid sm:grid-cols-2 gap-6">
           {data.map((item, index) => (
             <div 
             key={item.id}
-            className="group flex flex-col h-full border shadow-sm rounded-xl bg-neutral-900 border-neutral-700 shadow-neutral-700/70">
-              <div className="h-52 flex justify-center  bg-[#000000] rounded-t-xl">
-                <img src={item.image} alt="" className="max-h-full px-1 py-3 sm:p-2 rounded-xl sm:rounded-t-xl"/>
+            className="group flex flex-col h-full border shadow-sm rounded-xl  border-neutral-700 ">
+              <div className="h-52 flex justify-center   rounded-t-xl">
+                <img src={item.image} alt="" className="max-h-full px-1 py-3 sm:p-2 rounded-xl sm:rounded-t-xl lg:bg-opacity-40"/>
               </div>
               <div className="p-4 my-2 md:p-6">
-                <h3 className="text-xl font-semibold text-neutral-400 hover:text-white lg:text-3xl ">
+                <h3 className="text-xl font-semibold text-neutral-300 hover:text-white lg:text-3xl lg:text-center ">
                   {item.title}
                 </h3>
-                <p className="mt-3 text-neutral-600 reddit-mono">
+                <p className="mt-3 text-neutral-500 reddit-mono lg:text-center">
                   {item.about}
                 </p>
               </div>
