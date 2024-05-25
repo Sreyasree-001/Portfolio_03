@@ -19,7 +19,7 @@ export default function Home() {
     <div id="about" className="self-center">
       <About/>
     </div>
-    <div id="projects" className="self-center">
+    <div id="projects" className="">
       <ProjectCards/>
     </div>
     <div id="contact">

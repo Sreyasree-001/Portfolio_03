@@ -5,10 +5,10 @@ export const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
   
     return (
-      <div className="bg-black bg-transparent sm:rounded-full sm:mt-4">
+      <div className="bg-black bg-transparent sm:rounded-full sm:mt-4 z-50">
         <div className="px-4 py-6 mx-auto lg:py-2 sm:max-w-xl md:max-w-full lg:max-w-screen-sm md:px-4 lg:px-4">
           <div className="relative flex items-center justify-between sm:justify-center sm:space-x-2">
-            <ul className="items-center hidden space-x-8 sm:flex sm:bg-slate-500 sm:bg-opacity-15 sm:rounded-full sm:rounded-r-none sm:py-2 sm:px-10">
+            <ul className="items-center hidden space-x-8 sm:flex sm:bg-[#101C18]  sm:rounded-full sm:rounded-r-none sm:py-2 sm:px-10">
             <li>
                   <a
                     href="#hero"
@@ -35,7 +35,7 @@ export const Navbar = () => {
                       alt="logo"
                       className="w-20 h-20 rounded-full "
                     />
-            <ul className="items-center hidden space-x-8 sm:flex sm:bg-slate-500 sm:bg-opacity-15 sm:rounded-full sm:rounded-l-none sm:py-2 sm:px-8">
+            <ul className="items-center hidden space-x-8 sm:flex sm:bg-[#101C18] sm:rounded-full sm:rounded-l-none sm:py-2 sm:px-8">
             <li>
                   <a
                     href="#projects"

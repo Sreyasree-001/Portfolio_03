@@ -5,6 +5,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { SubmitHandler, useForm } from "react-hook-form";
+
 type Inputs = {
   userName: string;
   userEmail: string;
@@ -14,11 +15,10 @@ const Contact = () => {
   const {
     register,
     handleSubmit,
-    watch,
     formState: { errors },
   } = useForm<Inputs>();
   const onSubmit: SubmitHandler<Inputs> = (data) =>
-    alert(`Hello, your form has been submitted successfully`);
+    alert(`Message sent successfully`);
 
   const date = new Date();
   return (
@@ -64,14 +64,14 @@ const Contact = () => {
                 />
               </div>
               <div className="sm:flex sm:flex-col w-full sm:space-y-2 sm:w-1/2">
-              <label
+                <label
                   className="hidden sm:block text-gray-400"
                   htmlFor="message"
                 >
                   Your message:
                 </label>
                 <textarea
-                id="message"
+                  id="message"
                   cols={30}
                   rows={5}
                   placeholder="Write your message here..."

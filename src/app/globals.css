@@ -1,6 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Reddit+Mono:wght@200..900&display=swap');
+.reddit-mono{
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.radio-canada-big {
+  font-family: "Radio Canada Big", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
 *{
   scroll-behavior: smooth;
 }
