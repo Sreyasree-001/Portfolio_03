@@ -68,7 +68,7 @@ const Contact = () => {
                   id="name"
                   type="text"
                   placeholder="Name"
-                  className="p-1 rounded-md bg-transparent border-2 border-gray-700 text-gray-200 w-full sm:placeholder-transparent"
+                  className="p-1 rounded-md bg-transparent border-2 placeholder-gray-500 border-gray-700 text-gray-200 w-full sm:placeholder-transparent"
                   {...register("from_name", { required: true })}
                 />
               </div>
@@ -83,7 +83,7 @@ const Contact = () => {
                   id="email"
                   type="email"
                   placeholder="Email"
-                  className="p-1 rounded-md bg-transparent border-2 border-gray-700 text-white w-full sm:placeholder-transparent"
+                  className="p-1 rounded-md bg-transparent border-2 placeholder-gray-500 border-gray-700 text-white w-full sm:placeholder-transparent"
                   {...register("from_email", { required: true })}
                 />
               </div>
@@ -99,7 +99,7 @@ const Contact = () => {
                   cols={30}
                   rows={5}
                   placeholder="Write your message here..."
-                  className="p-1 rounded-md bg-transparent border-2 border-gray-700 text-white w-full sm:placeholder-transparent"
+                  className="p-1 rounded-md bg-transparent border-2 placeholder-gray-500 border-gray-700 text-white w-full sm:placeholder-transparent"
                   {...register("message", { required: true })}
                 />
               </div>
