@@ -29,7 +29,7 @@ const Contact = () => {
     //e.preventDefault();
 
     emailjs
-      .sendForm('service_f7dzeph', 'template_ruzfrkl', form.current, {
+      .sendForm('service_f7dzeph', 'template_ruzfrkl', "form", {
         publicKey: '_8ldLmWQcC-XGKO4H',
       })
       .then(
