@@ -14,7 +14,7 @@ type Inputs = {
   message: string;
 };
 const Contact = () => {
-  const form = useRef();
+  
   const {
     register,
     handleSubmit,
@@ -57,7 +57,7 @@ const Contact = () => {
           <div className=" h-auto w-full p-4">
             <form
               className="flex flex-col justify-center items-center space-y-2 lg:space-y-5"
-              ref={form}
+              
               onSubmit={handleSubmit(onSubmit)}
             >
               <div className="sm:flex sm:flex-col w-full sm:space-y-2 sm:w-1/2">
