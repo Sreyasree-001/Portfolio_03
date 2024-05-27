@@ -23,7 +23,7 @@ export const Hero = () => {
           </p>
           <hr className="my-8 border-gray-300" />
           <div>
-            <a href="cvFinal.pdf" download="cvFinal">
+            <a href="cvFinal01.pdf" download="cvFinal01">
               <button className="bg-transparent text-white border-gray-600 border-2 w-32 h-10 rounded-md  hover:bg-neutral-900">
                 Download CV
               </button>
